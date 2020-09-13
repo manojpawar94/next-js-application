@@ -1,8 +1,9 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Footer from './components/footer'
-import Navbar from './components/navbar'
-import aimlbanner from '../images/aiml_bannar.jpeg'
+import Footer from './components/Footer'
+import Navbar from './components/Navbar'
+import aimlbanner from '../images/aiml_banner_1.jpg'
+import ContactForm from './components/ContactForm'
 
 export default function Home() {
   return (
@@ -17,7 +18,12 @@ export default function Home() {
           <img className={styles.banner} src={aimlbanner} />
         </div>
         <div>
-          <h2>AIMLE</h2>
+          <h1 style={{textAlign : 'center', color : '#007bff', paddingTop: '25px'}}>Artifical Integllience and Machine Learning Enthusiastic</h1>
+        </div>
+        <div>
+          <div style={{marginLeft: '20%', marginRight: '20%', color : '#007bff', padding: '30px 0px'}}>
+              <ContactForm />
+          </div>
         </div>
       </main>
       <Footer />
