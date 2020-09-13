@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import styles from '../../styles/Navbar.module.css'
+import logo from '../../images/logo.png'
 
 export default function Navbar() {
     return (
@@ -7,7 +8,7 @@ export default function Navbar() {
             <ul className={styles.ul}>
                 <li className={styles.li}>
                     <Link href="/" >
-                        <a className={styles.title}>AIMLE</a>
+                        <img src={logo} style={{width: '80px', height: '40px'}}/>
                     </Link>
                 </li>
                 <li className={styles.li}>
