@@ -25,6 +25,10 @@ a {
   text-decoration: none;
 }
 
+main {
+  margin-top: 62px !important;
+}
+
 input, textarea {
   padding: 8px;
   margin: 4px 0;
@@ -39,6 +43,11 @@ input:focus, textarea:focus, textarea:focus-visible {
   border: 1.5px solid #007bff !important;
 }
 
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 button {
   padding: 8px;
   margin: 4px 0;
@@ -50,21 +59,12 @@ button.primary {
   background-image: linear-gradient(#80bdfd, #007bff, #0061c9);
 }
 
-.row {
-  width: 100% !important;
-}
-
-.col-2 {
-  float: left;
-  width: 50% !important;
-}
 .code {
   background: #fafafa;
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
 .card {
@@ -79,9 +79,7 @@ button.primary {
   transition: color 0.15s ease, border-color 0.15s ease;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
+.card:hover, .card:focus, .card:active {
   color: #0070f3;
   border-color: #0070f3;
 }

@@ -6,12 +6,12 @@ export default function AboutPage() {
     return (
         <div>
             <Navbar />
-            <main style={{ padding: '16px', marginTop: '70px' }}>
+            <main className={`container`}>
                 <div className={`row`}>
-                    <div className={`col-2`}></div>
-                    <div className={`col-2`}>
+                    <div className={`col-6`}>
                         <GitHubRepoList />
                     </div>
+                    <div className={`col-6`}></div>
                 </div>
 
             </main>

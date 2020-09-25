@@ -61,7 +61,7 @@ export default class ContactForm extends React.Component {
     render() {
         return (
             <>
-            <h1>We are happy to hear from you...</h1>
+            <h1>We would like to hear from you...</h1>
             <form onSubmit={this.submitContactForm}>
                 <input type="text" style={{ width: '49.5%', marginRight: '1%' }} onChange={this.handleFirstName} placeholder="First Name" />
                 <input type="text" style={{ width: '49.5%' }} onChange={this.handleLastName} placeholder="Last Name" />

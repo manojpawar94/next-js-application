@@ -8,7 +8,7 @@ export default function Navbar() {
             <ul className={styles.ul}>
                 <li className={styles.li}>
                     <Link href="/" >
-                        <img src={logo} style={{width: '80px', height: '40px'}}/>
+                        <img src={logo} className={styles.logo}/>
                     </Link>
                 </li>
                 <li className={styles.li}>

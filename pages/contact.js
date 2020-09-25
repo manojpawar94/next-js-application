@@ -7,10 +7,10 @@ export default function ContactPage() {
     return (
         <>
             <Navbar />
-            <main style={{ padding: '16px', marginTop: '70px'}}>
+            <main className={`container`}>
                 <div className={`row`}>
-                    <div className={`col-2`}></div>
-                    <div className={`col-2`}>
+                    <div className={`col-sm-6`}></div>
+                    <div className={`col-sm-6`}>
                         <div className={`card`}>
                             <ContactForm />
                         </div>

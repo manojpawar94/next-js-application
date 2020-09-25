@@ -5,7 +5,7 @@ export default function BlogHome() {
     return (
         <>
             <Navbar />
-            <main style={{padding: '16px',marginTop: '70px'}}>
+            <main>
                 <p>Blog Home page is working</p>
             </main>
             <Footer />

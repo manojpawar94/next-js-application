@@ -17,12 +17,20 @@ export default function Home() {
         <div>
           <img className={styles.banner} src={aimlbanner} />
         </div>
-        <div>
-          <h1 style={{textAlign : 'center', color : '#007bff', paddingTop: '25px'}}>Artifical Integllience and Machine Learning Enthusiastic</h1>
-        </div>
-        <div>
-          <div style={{marginLeft: '20%', marginRight: '20%', color : '#007bff', padding: '30px 0px'}}>
-              <ContactForm />
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-12">
+              <h1 style={{ textAlign: 'center', color: '#007bff', paddingTop: '25px' }}>Artifical Integllience and Machine Learning Enthusiastic</h1>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-sm-1"></div>
+            <div className="col-sm-10">
+              <div style={{ color: '#007bff' }}>
+                <ContactForm />
+              </div>
+              <div className="col-sm-1"></div>
+            </div>
           </div>
         </div>
       </main>
